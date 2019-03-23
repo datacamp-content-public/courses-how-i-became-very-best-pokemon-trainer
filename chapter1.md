@@ -15,20 +15,17 @@ skills: 2
 
 Welcome to Pokem-- Python! My name is Matt! Some people call me Matthew, Widjaja, Wijaya, Widji, Widjuju... ahh forget it.
 
-According to StackOverflow, Python is the top 3rd most popular & most loved programming language. And according to the Python Foundation, out of all Python users:
-- 58% use it for Data Analysis
-- 43% use it for DevOps/Automation
-- 38% use it for Machine Learning
+According to StackOverflow, Python is the top 3rd most popular & most loved programming language. But, how do we get started? Well fortunately, I too have went on an adventure when I was a young lad, and it was to become the very best Pokemon Trainer in all the lands! And I did it all with Python and using it to explore the code of the game Pokemon Red/Blue _(ignore how Python wasn't on a Game Boy back in the 90s)_.
 
-But, how do we get started? Well fortunately, I too have went on an adventure when I was a young lad, and it was to become the very best Pokemon Trainer in all the lands! And I did it all with Python and using it to explore the code of the game Pokemon Red/Blue _(ignore how Python wasn't on a Game Boy back in the 90s)_. 
+This class assumes that you're familiar with another programming language already but feel free to give this class a try even if you don't!
 
 So let's begin! I'll teach you & you'll teach me Poke-- Python.
 
 `@instructions`
-What's your name? The default is Ash but feel free to make it whatever you want.
+player_name is a variable right now that's set to my name, Matt. Change it to your name and then click the green 'Submit Answer' button to go to the next part of this course.
 
 `@hint`
-Don't forget t
+Don't delete the quotes around the current name! We'll talk about variable syntax later, but those two quotes are vital to the name.
 
 `@pre_exercise_code`
 ```{python}
@@ -37,12 +34,12 @@ Don't forget t
 
 `@sample_code`
 ```{python}
-player_name = 'Ash'
+player_name = 'Matt'
 ```
 
 `@solution`
 ```{python}
-player_name = 'Ash'
+player_name = 'Matt'
 ```
 
 `@sct`
