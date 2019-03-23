@@ -1,6 +1,7 @@
 ---
 title: Introduction
 description: 'Who are you?'
+free_preview: true
 ---
 
 ## Welcome to Python!
