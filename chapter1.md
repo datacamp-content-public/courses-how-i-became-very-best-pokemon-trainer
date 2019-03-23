@@ -91,6 +91,6 @@ These are not the only options by far. Many people have their own favorite IDEs 
 Don't worry, this won't be a choose your own adventure book.
 
 `@possible_answers`
-[Let's do this]
+- [Let's do this]
 
 `@feedback`
