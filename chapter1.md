@@ -47,5 +47,7 @@ player_name = 'Ash'
 
 `@sct`
 ```{python}
-Ex().check_object('player_name').is_instance(numpy.ndarray)
+Ex().check_object('player_name').is_instance(str, not_instance_msg="player_name is not a string. Did you delete the around the player's name?")
+success_msg("Nice work {}, let's continue!".format(player_name))
+
 ```
