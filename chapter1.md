@@ -28,7 +28,7 @@ So let's begin! I'll teach you & you'll teach me Poke-- Python.
 What's your name? The default is Ash but feel free to make it whatever you want.
 
 `@hint`
-
+Don't forget t
 
 `@pre_exercise_code`
 ```{python}
@@ -48,6 +48,6 @@ player_name = 'Ash'
 `@sct`
 ```{python}
 Ex().check_object('player_name').is_instance(str, not_instance_msg="player_name is not a string. Did you delete the around the player's name?")
-success_message("Nice work {}, let's continue!".format(player_name))
+success_msg("Nice work {}, let's continue!".format(player_name))
 
 ```
