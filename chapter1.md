@@ -32,12 +32,12 @@ What's your name? The default is Ash but feel free to make it whatever you want.
 
 `@pre_exercise_code`
 ```{python}
-player_name = 'Ash'
+
 ```
 
 `@sample_code`
 ```{python}
-
+player_name = 'Ash'
 ```
 
 `@solution`
