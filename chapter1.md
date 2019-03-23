@@ -1,7 +1,6 @@
 ---
 title: Introduction
 description: 'Who are you?'
-free_preview: true
 ---
 
 ## Welcome to Python!
@@ -46,6 +45,6 @@ player_name = 'Matt'
 `@sct`
 ```{python}
 Ex().check_object('player_name').is_instance(str, not_instance_msg="player_name is not a string. Did you delete the around the player's name?")
-success_msg("Nice work {}, let's continue!".format(player_name))
+success_msg("Nice work, let's continue!")
 
 ```
